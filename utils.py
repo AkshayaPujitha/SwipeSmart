@@ -2,7 +2,7 @@ import json
 import tensorflow as tf
 import cv2
 import numpy as np
-
+import pyautogui
 
 
 def predict(img,model,class_names):
@@ -16,6 +16,22 @@ def predict(img,model,class_names):
 
     print(predicted_class_name)
     return predicted_class_name
+
+def perform_action(predicted_class_name):
+    if predicted_class_name=="SwipeRight":
+        print("here")
+        pyautogui.move(100, 0, duration=0.5)
+
+    elif predicted_class_name=="SwipeLeft":
+        pyautogui.move(-100,0,duration=0.5)
+
+    elif predicted_class_name=="ScrollUp":
+        pyautogui.scroll(3)
+
+    elif predicted_class_name=="ScrollDown":
+        pyautogui.scroll(-3)
+
+
 
 
 

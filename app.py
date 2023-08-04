@@ -4,7 +4,8 @@ import cvzone
 from cvzone.HandTrackingModule import HandDetector
 import json 
 import tensorflow as tf
-from utils import predict
+from utils import predict,perform_action
+#import tkinter as tk
 
 
 app=Flask(__name__)
@@ -33,8 +34,8 @@ def home():
 
                 predicted_class_name=predict(imgCrop,model,class_names)
 
-                if predicted_class_name=='Neutral':
-                    pass
+                perform_action(predicted_class_name)
+
 
         except:
             pass
