@@ -1,6 +1,6 @@
-# Contributing to [Project Name]
+# Contributing to SwipeSmart
 
-Thank you for considering contributing to [SwipeSmart]! We welcome contributions from the community and appreciate your interest in making our project better.
+Thank you for considering contributing to SwipeSmart We welcome contributions from the community and appreciate your interest in making our project better.
 
 Before contributing, please take a moment to review the following guidelines to help streamline the contribution process.
 
@@ -12,7 +12,7 @@ This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participat
 
 ### Reporting Issues
 
-If you encounter a bug, have a feature request, or want to suggest improvements, please open an issue on our [GitHub repository](https://github.com/AkshayaPujitha/issues). Be sure to include as much detail as possible, such as steps to reproduce the issue or a description of the feature you'd like to see.
+If you encounter a bug, have a feature request, or want to suggest improvements, please open an issue on our [GitHub repository](https://github.com/AkshayaPujitha/SwipeSmart.git/issues). Be sure to include as much detail as possible, such as steps to reproduce the issue or a description of the feature you'd like to see.
 
 ### Making Changes
 
@@ -44,5 +44,5 @@ By contributing to this project, you agree that your contributions will be licen
 
 ## Acknowledgments
 
-We appreciate your interest in contributing to [SwipeSmart]. Your efforts and contributions help improve the project for everyone. Thank you!
+We appreciate your interest in contributing to SwipeSmart. Your efforts and contributions help improve the project for everyone. Thank you!
 
