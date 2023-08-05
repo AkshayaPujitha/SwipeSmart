@@ -12,7 +12,7 @@ This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participat
 
 ### Reporting Issues
 
-If you encounter a bug, have a feature request, or want to suggest improvements, please open an issue on our [GitHub repository](https://github.com/AkshayaPujitha/SwipeSmart.git/issues). Be sure to include as much detail as possible, such as steps to reproduce the issue or a description of the feature you'd like to see.
+If you encounter a bug, have a feature request, or want to suggest improvements, please open an issue on our [GitHub repository](https://github.com/AkshayaPujitha/SwipeSmart/issues). Be sure to include as much detail as possible, such as steps to reproduce the issue or a description of the feature you'd like to see.
 
 ### Making Changes
 
@@ -37,10 +37,6 @@ If your changes affect the project's functionality, update the documentation acc
 ## Pull Request Reviews
 
 All pull requests will be reviewed by the project maintainers. Feedback and suggested changes will be provided as needed. Once the PR is approved, it will be merged into the `main` branch.
-
-## License
-
-By contributing to this project, you agree that your contributions will be licensed under the [project's license](LICENSE).
 
 ## Acknowledgments
 
