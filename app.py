@@ -35,13 +35,9 @@ def home():
                 predicted_class_name=predict(imgCrop,model,class_names)
 
                 perform_action(predicted_class_name)
-
-
         except:
             pass
 
-
-        
         key=cv2.waitKey(1)
 
         if key==ord('q'):

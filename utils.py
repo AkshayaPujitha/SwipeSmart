@@ -3,6 +3,8 @@ import tensorflow as tf
 import cv2
 import numpy as np
 import pyautogui
+import time
+import keyboard
 
 
 def predict(img,model,class_names):
@@ -26,10 +28,11 @@ def perform_action(predicted_class_name):
         pyautogui.move(-100,0,duration=0.5)
 
     elif predicted_class_name=="ScrollUp":
-        pyautogui.scroll(3)
+        pyautogui.scroll(50)
 
     elif predicted_class_name=="ScrollDown":
-        pyautogui.scroll(-3)
+        pyautogui.scroll(-50)
+        
 
 
 
