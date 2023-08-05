@@ -5,5 +5,3 @@ tensorflow==2.13.0
 tk==0.1.0
 PyAutoGUI==0.9.54
 keyboard==0.13.5
-
-
