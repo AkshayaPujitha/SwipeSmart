@@ -13,7 +13,7 @@ To install SwipeSmart and its dependencies, follow these steps:
 Clone the project
 
 ```bash
-  https://github.com/AkshayaPujitha/SwipeSmart.git
+https://github.com/AkshayaPujitha/SwipeSmart.git
 ```
 
 Make the shell script executable
