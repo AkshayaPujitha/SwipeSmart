@@ -13,7 +13,7 @@ To install SwipeSmart and its dependencies, follow these steps:
 Clone the project
 
 ```bash
-  git clone https://github.com/AkshayaPujitha/HomeSecuritySystem.git
+  https://github.com/AkshayaPujitha/SwipeSmart.git
 ```
 
 Make the shell script executable
