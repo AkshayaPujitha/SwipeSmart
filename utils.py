@@ -21,10 +21,11 @@ def predict(img,model,class_names):
 
 def perform_action(predicted_class_name):
     if predicted_class_name=="SwipeRight":
-        pyautogui.hotkey('ctrl', 'tab')
+        pyautogui.hotkey('ctrl','shift', 'tab')
 
     elif predicted_class_name=="SwipeLeft":
-        pyautogui.hotkey('ctrl','shift', 'tab')
+        pyautogui.hotkey('ctrl', 'tab')
+        
 
     elif predicted_class_name=="ScrollUp":
         pyautogui.scroll(30)
